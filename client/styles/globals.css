@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e2e8f0;
+}
+
+.button {
+  @apply px-3 py-1 font-semibold capitalize border border-blue-500 rounded-full;
+}
+
+.log-button {
+  @apply text-blue-500;
+}
+.log-button:hover {
+  @apply bg-slate-50;
+}
+
+.sign-button {
+  @apply ml-2 text-white bg-blue-500;
+}
+.sign-button:hover {
+  @apply bg-blue-600;
+}
